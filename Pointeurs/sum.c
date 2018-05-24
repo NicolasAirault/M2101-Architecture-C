@@ -19,7 +19,7 @@ double sum2(double *tab, int size){
 
 int main(void){
 	double tab[] = {100,10,1,0.1,0.01};
-	double taille = 5;
+	int taille = 5;
 	double total1 = sum1(tab,taille);
 	double total2 = sum2(tab);
 	printf("Total 1 : %f,\n Total 2 : %f\n",total1,total2);
