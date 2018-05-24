@@ -21,6 +21,6 @@ int main(void){
 	double tab[] = {100,10,1,0.1,0.01};
 	int taille = 5;
 	double total1 = sum1(tab,taille);
-	double total2 = sum2(tab);
+	double total2 = sum2(tab,taille);
 	printf("Total 1 : %f,\n Total 2 : %f\n",total1,total2);
 }
